@@ -1,0 +1,23 @@
+.x-broadcast {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .x-imgList{
+        position: absolute;
+        left: 0;
+        &:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .x-imgBox{
+            float: left;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+  
