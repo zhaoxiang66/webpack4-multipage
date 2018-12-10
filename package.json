@@ -32,7 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "babel-polyfill": "^6.26.0",
-    "jquery": "^1.12.4"
+    "jquery": "^3.3.1"
   },
   "browserslist": [
     "defaults",
