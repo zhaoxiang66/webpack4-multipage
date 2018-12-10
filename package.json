@@ -4,8 +4,8 @@
   "description": "this is a app",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack && webpack-dev-server --config webpack.config.js",
-    "build": "webpack --mode production"
+    "dev": "webpack --config webpack.dev.conf.js && webpack-dev-server   --config webpack.dev.conf.js",
+    "build": "webpack --config webpack.pro.conf.js"
   },
   "author": "zhaoxiang",
   "license": "ISC",
@@ -32,8 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "babel-polyfill": "^6.26.0",
-    "jquery": "^1.12.4",
-    "ol": "^5.3.0"
+    "jquery": "^1.12.4"
   },
   "browserslist": [
     "defaults",
